@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale">
+    <title>Profile Card</title>
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <!--Normalize -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">                
+    <!--Custom style-->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="flex"></main>
+    <template id="template-card">
+        <article class="card">
+            <img src="./images/bg-pattern-card.svg" alt="imagen header card" class="card-header">
+            <div class="card-body">
+                <img src="./images/image-victor.jpg" alt="Imagen username" class="card-body-img">
+                <h1 class="card-body-title">Victor Crest <span>26</span></h1>
+                <p class="card-body-text">London</p>
+            </div>
+            <div class="card-footer">
+                <div class="card-footer-social">
+                    <h3>80K</h3>
+                    <p>HP</p>
+                </div>
+                <div class="card-footer-social">
+                    <h3>803K</h3>
+                    <p>Height</p>
+                </div>
+                <div class="card-footer-social">
+                    <h3>1.4K</h3>
+                    <p>Weight</p>
+                </div>
+            </div>
+        </article>
+    </template>
+    <script src="./js/app.js"></script>
+</body>
+</html>
